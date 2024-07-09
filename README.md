@@ -72,3 +72,19 @@ DB_PORT=5432
 
 9- Effectuer les migrations vers la base de donnée postgresql
 
+10- il faut installer Jazzmin:
+# pip install -U django-jazzmin
+
+11- il faut l'ajouter dans le setings.py comment ceci:
+
+****
+INSTALLED_APPS = [
+    'jazzmin', // en première position
+
+    'django.contrib.admin',
+    [...]
+]
+
+consulter https://django-jazzmin.readthedocs.io/installation/ pour plus de details
+****
+
