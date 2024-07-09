@@ -79,8 +79,9 @@ DB_PORT=5432
 
 ****
 INSTALLED_APPS = [
-    'jazzmin', // en première position
 
+    // en première position 
+    'jazzmin', 
     'django.contrib.admin',
     [...]
 ]
